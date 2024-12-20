@@ -1,12 +1,12 @@
 @{
     RootModule        = '.\PowerShellUniversal.Triggers.Email.psm1'
-    ModuleVersion     = '1.0.0'
+    ModuleVersion     = '1.0.1'
     GUID              = '7f0e3a9c-0f9d-438f-86cf-0ef61cf0b27f'
     Author            = 'Ironman Software, LLC'
     CompanyName       = 'Ironman Software, LLC'
     Copyright         = '(c) Ironman Software, LLC. All rights reserved.'
     Description       = 'A module that contains functions for sending emails when certain triggers take place in PowerShell Universal.'
-    FunctionsToExport = @('Send-PSTriggerUEmail')
+    FunctionsToExport = @('Send-PSUTriggerEmail')
     RequiredModules   = @('Mailozaurr')
     PrivateData       = @{
         PSData = @{
