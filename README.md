@@ -136,6 +136,24 @@ The following tags are used to categorize modules in PowerShell Universal
 - `api` - Contains API endpoints
 - `trigger` - Contains triggers
 
+### Naming Conventions
+
+We recommend naming your modules so they are discoverable. Consider prefixing with `PowerShellUniversal`, followed by the category of the features, and followed by the specific implementation. 
+
+```
+PowerShellUniversal.{Feature}.{Implementation}
+```
+
+For example: 
+
+```
+PowerShellUniversal.Scripts.ActiveDirectory
+PowerShellUniversal.Triggers.Slack
+PowerShellUniversal.Widgets.Weather
+```
+
+Some modules do not follow this convention but we recommend it for discoverability.
+
 ### Documentation
 
 We prefer that you include comment based help. A `readme.md` is also useful to better describe your module or solution. The readme content will be displayed in PowerShell Universal.
